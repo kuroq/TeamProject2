@@ -47,7 +47,7 @@ app.add_middleware(
 openai.api_key = "セキュリティのために削除しました。" # 
 #"過去のOpenAI APIキーも削除しました。" 
 
-# 데이터 모델 정의
+# データモデル定義
 class CTextRequest(BaseModel):
     userId: int  # TextTableのuserId
 
